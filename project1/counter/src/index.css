@@ -37,13 +37,16 @@ button {
   background-color: #1a1a1a;
   cursor: pointer;
   transition: border-color 0.25s;
+  box-shadow:  0 0 20px 5px #646cff5d ;
 }
 button:hover {
   border-color: #646cff;
+  box-shadow:  0 0 20px 5px #646cffcc ;
 }
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
+  box-shadow:  0 0 20px 5px #646cff ;
 }
 
 @media (prefers-color-scheme: light) {
