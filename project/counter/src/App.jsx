@@ -18,9 +18,7 @@ const remValue =()=>{
      <div className="btn-container">
      <button onClick={addValue}>Add</button>   
      <button onClick={remValue}>Remove</button>
-     </div>
-      
-       
+     </div> 
     </>
   )
 }
