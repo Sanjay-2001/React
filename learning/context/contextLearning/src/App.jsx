@@ -1,10 +1,10 @@
-import { useContext } from "react";
+
 import "./App.css";
 import Counter from "./components/Counter";
-import { CounterContext } from "./context/CounterContext";
+import {  useCounter } from "./context/CounterContext";
 
 function App() {
-  const counterState = useContext(CounterContext);
+  const counterState = useCounter();
   console.log(counterState);
   return (
     <>

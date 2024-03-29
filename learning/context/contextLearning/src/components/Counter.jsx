@@ -1,8 +1,8 @@
-import React, { useContext } from "react";
-import { CounterContext } from "../context/CounterContext";
+import React from "react";
+import {  useCounter } from "../context/CounterContext";
 
 function Counter() {
-  const counterContext = useContext(CounterContext);
+  const counterContext =useCounter();
   return (
     <div>
       <button onClick={() => counterContext.setCount(counterContext.count + 1)}>
